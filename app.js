@@ -7,7 +7,7 @@ let img = document.getElementById('img');
 if(horas > 5 && horas <= 12) {
     txt.innerText = 'Agora são ' + horas + ' horas. Bom dia!';
     img.src = "Images/manhã.png";
-    document.body.backgroundColor = "#FFFAE3"
+    document.body.style.backgroundColor = "#FFFAE3"
 }
 else if(horas > 12 && horas <= 17) {
     txt.innerText= 'Agora são ' + horas + ' horas. Boa tarde!';
